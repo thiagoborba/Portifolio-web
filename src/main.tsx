@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './index.scss';
+import '@/styles/_reset.scss';
 
 import { Layout } from '@/Layout';
 
