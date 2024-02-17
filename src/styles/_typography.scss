@@ -1,12 +1,14 @@
+@import './responsive';
+
 $typography-family-base: 'Fira Code retina' !default;
 
-$typography-code-snippets: 14px;
-$typography-Lables: 16px;
-$typography-body-text: 18px;
+$typography-code-snippets: Calc(Number(1rem) - 2);
+$typography-Lables: 1rem;
+$typography-body-text: 1rem + 2;
 
-$typography-Subheadline-text: 32px;
+$typography-Subheadline-text: 1rem * 2;
 
-$typography-headline-text: 62px;
+$typography-headline-text: (1rem * 4) - 2;
 
 :export {
   typography-family-base: $typography-family-base;
