@@ -1,13 +1,13 @@
-import { FlexBox } from '@/Components/FlexBox';
-import { Header } from '@/Components/Header';
+import { FlexBox, SideNav, Header, Footer } from '@/Components';
 
 export function Layout() {
   return (
-    <FlexBox direction="row">
-      <nav>
-        <div>Thiago Borba</div>
-      </nav>
+    <FlexBox direction="column">
       <Header />
+      <main>
+        <SideNav />
+      </main>
+      <Footer />
     </FlexBox>
   );
 }
