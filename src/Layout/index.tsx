@@ -1,3 +1,5 @@
+import { Header } from '@/Components/Header';
+
 export function Layout() {
-  return 'Hello World!';
+  return <Header />;
 }

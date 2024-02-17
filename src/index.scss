@@ -47,3 +47,13 @@ a {
 }
 
 // Add any additional styles or customizations below
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.collumn {
+  display: flex;
+  flex-direction: column;
+}
