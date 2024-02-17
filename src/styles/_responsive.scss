@@ -3,9 +3,15 @@ $responsiveMd: 768px;
 $responsiveLg: 1024px;
 $responsiveXLg: 1366px;
 
+$side-bar-width: 312px;
+
+$height-header: 4rem;
+
 :export {
   responsiveSm: $responsiveSm;
   responsiveMd: $responsiveMd;
   responsiveLg: $responsiveLg;
   responsiveXLg: $responsiveXLg;
+  side-bar-width: $side-bar-width;
+  height-header: $height-header;
 }
