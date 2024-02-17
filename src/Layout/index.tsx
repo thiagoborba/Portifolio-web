@@ -6,6 +6,7 @@ export function Layout() {
       <Header />
       <main>
         <SideNav />
+        <section>section</section>
       </main>
       <Footer />
     </FlexBox>
