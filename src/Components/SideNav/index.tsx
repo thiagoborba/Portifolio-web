@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 export function SideNav() {
   return (
     <FlexBox className={styles['side-bar']} direction="column">
-      <FlexBox className={styles['nav']}>nav</FlexBox>
+      SidBar
     </FlexBox>
   );
 }
