@@ -1,0 +1,13 @@
+@import '@/styles/_variables.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: $typography-Lables;
+}
+
+.sider-bar-title {
+  width: 17vw;
+  font-size: $typography-Lables;
+}
