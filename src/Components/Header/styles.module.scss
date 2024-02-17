@@ -1,13 +1,9 @@
-@import '@/styles/_variables.scss';
+@import '../../styles/_variables.scss';
 
-.container {
+header {
   display: flex;
-  justify-content: space-between;
-
-  font-size: $typography-Lables;
-}
-
-.sider-bar-title {
-  width: 17vw;
-  font-size: $typography-Lables;
+  span {
+    width: $side-bar-width;
+    align-self: center;
+  }
 }
