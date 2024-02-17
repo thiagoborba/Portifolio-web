@@ -1,0 +1,18 @@
+$typography-family-base: 'Fira Code', monospace !default;
+
+$typography-code-snippets: 14px;
+$typography-Lables: 16px;
+$typography-body-text: 18px;
+
+$typography-Subheadline-text: 32px;
+
+$typography-headline-text: 62px;
+
+:export {
+  typography-family-base: $typography-family-base;
+  typography-code-snippets: $typography-code-snippets;
+  typography-Lables: $typography-Lables;
+  typography-body-text: $typography-body-text;
+  typography-Subheadline-text: $typography-Subheadline-text;
+  typography-headline-text: $typography-headline-text;
+}

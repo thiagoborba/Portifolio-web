@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+html,
+body {
+  color: $secoundary-steel-blue;
+  font-family: $typography-family-base;
+  background: $prymary-deep-blue;
+
+  margin: 0;
+}
