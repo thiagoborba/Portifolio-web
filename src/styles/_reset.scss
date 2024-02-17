@@ -2,49 +2,17 @@
 
 * {
   box-sizing: border-box;
-}
-
-html,
-body,
-footer,
-header {
-  color: $secoundary-steel-blue;
   font-family: $typography-family-base;
   background: $prymary-deep-blue;
-
+  color: $secoundary-steel-blue;
   margin: 0;
+  padding: 0;
 }
 
 footer,
 header {
   width: 100vw;
-  height: 3rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-main,
-body,
-html {
-  height: calc(100vh - 3rem - 3rem);
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-}
-
-main,
-footer,
-header {
+  height: $height-header;
   border-right: 1px solid $lines;
   border-bottom: 1px solid $lines;
-
-  width: 100%;
-}
-
-section {
-  width: calc(100% - 17vw);
 }
