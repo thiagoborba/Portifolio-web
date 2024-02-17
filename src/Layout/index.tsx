@@ -1,4 +1,5 @@
-import { FlexBox, SideNav, Header, Footer } from '@/Components';
+import { FlexBox, SideNav, Header, Footer, Container } from '@/Components';
+import './styles.scss';
 
 export function Layout() {
   return (
@@ -6,7 +7,7 @@ export function Layout() {
       <Header />
       <main>
         <SideNav />
-        <section>section</section>
+        <Container />
       </main>
       <Footer />
     </FlexBox>
