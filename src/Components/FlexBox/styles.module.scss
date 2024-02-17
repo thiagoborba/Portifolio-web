@@ -1,6 +1,10 @@
+@import '../../styles/variables.scss';
+
 .flex-box {
   &.-container {
     display: flex;
+    border-right: 1px solid $lines;
+    border-bottom: 1px solid $lines;
   }
 
   &.-align-items-stretch {
