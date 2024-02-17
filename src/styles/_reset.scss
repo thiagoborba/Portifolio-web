@@ -36,7 +36,6 @@ main {
   flex-direction: row;
 }
 
-section,
 main,
 footer,
 header {
@@ -44,4 +43,8 @@ header {
   border-bottom: 1px solid $lines;
 
   width: 100%;
+}
+
+section {
+  width: calc(100% - 17vw);
 }
