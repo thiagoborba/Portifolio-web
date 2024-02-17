@@ -26,7 +26,7 @@ interface FlexProps {
   flexWrap?: 'wrap' | 'nowrap' | 'reverse';
   alignSelf?: 'stretch' | 'center' | 'start' | 'end';
   justifySelf?: 'stretch' | 'center' | 'start' | 'end';
-  flex?: string;
+  flex?: boolean;
   flexBasis?: string;
   flexGrow?: number;
   flexShrink?: number;
@@ -40,9 +40,10 @@ interface FlexProps {
 interface Props extends React.HTMLAttributes<HTMLDivElement>, FlexProps {}
 
 export function FlexBox(props: Props) {
+  const { className } = props;
   return (
     <div
-      className={cn(styles['flex-box'], {
+      className={cn(styles['flex-box'], className, {
         [styles['-container']]: props.container,
         [styles['-align-items-stretch']]: props.alignItems === 'stretch',
         [styles['-align-items-center']]: props.alignItems === 'center',
@@ -81,9 +82,12 @@ export function FlexBox(props: Props) {
         [styles['-push-left']]: props.pushLeft,
         [styles['-push-right']]: props.pushRight,
         [styles['-push-top']]: props.pushTop,
+        [styles['-flex']]: props.flex,
       })}
     >
       {props.children}
     </div>
   );
 }
+
+export default FlexBox;
