@@ -1,0 +1,12 @@
+@import '../../styles/_variables.scss';
+
+li {
+  display: flex;
+  align-items: center;
+  border: $typography-border;
+  height: $height-header;
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
+}
