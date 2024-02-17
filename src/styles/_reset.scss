@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body,
 footer,
@@ -25,4 +29,19 @@ main,
 body,
 html {
   height: calc(100vh - 3rem - 3rem);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+section,
+main,
+footer,
+header {
+  border-right: 1px solid $lines;
+  border-bottom: 1px solid $lines;
+
+  width: 100%;
 }
