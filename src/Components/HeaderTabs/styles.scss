@@ -1,0 +1,19 @@
+@import '../../styles/_variables.scss';
+
+.header-tabs {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border-bottom: $border;
+
+  li {
+    &:last-child {
+      margin-left: auto;
+      border-left: $border;
+    }
+  }
+}
+
+nav {
+  flex: 1;
+}

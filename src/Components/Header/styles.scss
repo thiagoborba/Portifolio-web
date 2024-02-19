@@ -1,0 +1,16 @@
+@import '../../styles/_variables.scss';
+
+header {
+  display: flex;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  width: $side-bar-width;
+  align-self: center;
+  padding-left: $base;
+  border-right: $border;
+  border-bottom: $border;
+  height: 100%;
+}
