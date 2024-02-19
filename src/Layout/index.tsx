@@ -3,7 +3,7 @@ import './styles.scss';
 
 export function Layout() {
   return (
-    <FlexBox direction="column">
+    <FlexBox className="outside-container" direction="column">
       <Header />
       <main>
         <SideNav />
