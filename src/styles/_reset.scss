@@ -11,8 +11,6 @@
 
 footer,
 header {
-  width: 100vw;
+  width: 100%;
   height: $height-header;
-  border-right: 1px solid $lines;
-  border-bottom: 1px solid $lines;
 }
