@@ -5,9 +5,9 @@ export function HeaderTabs() {
   return (
     <nav>
       <ul>
-        <Tab href="/home" label="_hello" />
-        <Tab href="/about" label="_about-me" />
-        <Tab href="/contact" label="_projects" />
+        <Tab href="/hello" label="_hello" />
+        <Tab href="/about-me" label="_about-me" />
+        <Tab href="/projects" label="_projects" />
       </ul>
     </nav>
   );

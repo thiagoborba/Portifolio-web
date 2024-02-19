@@ -6,4 +6,10 @@ header {
     width: $side-bar-width;
     align-self: center;
   }
+
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
 }

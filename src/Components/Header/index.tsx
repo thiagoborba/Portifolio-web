@@ -1,11 +1,14 @@
 import './styles.module.scss';
-import { HeaderTabs } from '@/Components';
+import { HeaderTabs, Tab } from '@/Components';
 
 export function Header() {
   return (
     <header>
       <span>thiago-borba</span>
       <HeaderTabs />
+      <div>
+        <Tab label="_contact-me" href="/contact-me" />
+      </div>
     </header>
   );
 }

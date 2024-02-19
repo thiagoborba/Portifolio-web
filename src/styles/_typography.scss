@@ -13,6 +13,8 @@ $typography-headline-text: (1rem * 4) - 2;
 
 $typography-border: 1px solid $lines;
 
+$radius: calc(1rem / 2);
+
 :export {
   typography-family-base: $typography-family-base;
   typography-code-snippets: $typography-code-snippets;
