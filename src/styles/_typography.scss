@@ -11,9 +11,11 @@ $typography-Subheadline-text: 1rem * 2;
 
 $typography-headline-text: (1rem * 4) - 2;
 
-$typography-border: 1px solid $lines;
+$border: 1px solid $lines;
 
 $radius: calc(1rem / 2);
+
+$base: 1rem;
 
 :export {
   typography-family-base: $typography-family-base;
@@ -22,5 +24,7 @@ $radius: calc(1rem / 2);
   typography-body-text: $typography-body-text;
   typography-Subheadline-text: $typography-Subheadline-text;
   typography-headline-text: $typography-headline-text;
-  typography-border: $typography-border;
+  border: $border;
+  radius: $radius;
+  base: $base;
 }
