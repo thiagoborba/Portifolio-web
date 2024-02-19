@@ -4,7 +4,7 @@ import { HeaderTabs } from '@/Components';
 export function Header() {
   return (
     <header>
-      <span>Thiago Borba</span>
+      <span>thiago-borba</span>
       <HeaderTabs />
     </header>
   );
