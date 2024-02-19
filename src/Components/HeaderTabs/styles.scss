@@ -7,9 +7,12 @@
   border-bottom: $border;
 
   li {
+    border-top: $border;
     &:last-child {
       margin-left: auto;
       border-left: $border;
+      border-top: $border;
+      border-top-right-radius: $radius;
     }
   }
 }

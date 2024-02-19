@@ -10,7 +10,7 @@ header {
   width: $side-bar-width;
   align-self: center;
   padding-left: $base;
-  border-right: $border;
-  border-bottom: $border;
+  border: $border;
+  border-top-left-radius: $radius;
   height: 100%;
 }
