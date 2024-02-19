@@ -3,7 +3,7 @@
 .flex-box {
   &.-container {
     display: flex;
-    border-right: 1px solid $lines;
+    border-right: 1px solid $lines; // código possivelmente desnecessário
     border-bottom: 1px solid $lines;
   }
 
