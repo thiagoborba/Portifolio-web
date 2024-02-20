@@ -5,21 +5,21 @@
   flex-direction: row;
   height: 100%;
 
+  list-style-type: none;
+
   div {
     flex: 1;
-    border-top: $border;
     border-bottom: $border;
-  }
-
-  li {
     border-right: $border;
-    border-bottom: $border;
     border-top: $border;
+  }
+}
 
-    &:last-child {
-      border: $border;
-      border-top-right-radius: $radius;
-    }
+#_contact-me {
+  background-color: black;
+
+  button {
+    border-top-right-radius: $radius;
   }
 }
 

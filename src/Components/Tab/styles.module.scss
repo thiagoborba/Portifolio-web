@@ -1,11 +1,25 @@
 @import '../../styles/_variables.scss';
 
-li {
+.button {
   display: flex;
   align-items: center;
   list-style: none;
-  a {
-    text-decoration: none;
+  padding: 0 calc($base * 2);
+
+  font-size: $typography-label;
+  border: none;
+  border-top: $border;
+  border-right: $border;
+  border-bottom: $border;
+  cursor: pointer;
+  height: 100%;
+
+  &:hover {
+    color: #ffffff;
   }
-  padding: 0 $base;
+
+  &.-active {
+    border-bottom: 3px solid $accent-coral;
+    color: #ffffff;
+  }
 }

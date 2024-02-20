@@ -4,7 +4,7 @@
 $typography-family-base: 'Fira Code retina' !default;
 
 $typography-code-snippets: Calc(Number(1rem) - 2);
-$typography-Lables: 1rem;
+$typography-label: 1rem;
 $typography-body-text: 1rem + 2;
 
 $typography-Subheadline-text: 1rem * 2;
@@ -20,7 +20,7 @@ $base: 1rem;
 :export {
   typography-family-base: $typography-family-base;
   typography-code-snippets: $typography-code-snippets;
-  typography-Lables: $typography-Lables;
+  typography-label: $typography-label;
   typography-body-text: $typography-body-text;
   typography-Subheadline-text: $typography-Subheadline-text;
   typography-headline-text: $typography-headline-text;

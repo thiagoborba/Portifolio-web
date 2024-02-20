@@ -1,14 +1,26 @@
-import './styles.module.scss';
+import styles from './styles.module.scss';
+import cn from 'clsx';
 
-interface TabProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+interface TabProps
+  extends React.DetailedHTMLProps<
+    React.ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  > {
   label: string;
+  active?: boolean;
 }
 
-export function Tab({ href, label }: TabProps) {
+export function Tab({ label, active, onClick, ...props }: TabProps) {
   return (
-    <li>
-      <a href={href}>{label}</a>
-    </li>
+    <button
+      className={cn(styles['button'], {
+        [styles['-active']]: active,
+      })}
+      onClick={onClick}
+      {...props}
+    >
+      {label}
+    </button>
   );
 }
 
