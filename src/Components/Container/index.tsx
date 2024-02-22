@@ -1,5 +1,5 @@
 import './styles.scss';
-import Background from '@/Assets/Background Blurs.svg?react';
+import Background from '@/Assets/Svg/Background Blurs.svg?react';
 
 export function Container() {
   return (
