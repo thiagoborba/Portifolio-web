@@ -1,7 +1,7 @@
 @import './responsive';
 @import './colors';
 
-$typography-family-base: 'Fira Code retina' !default;
+$typography-family-base: 'Fira Code retina' !important !default;
 
 $typography-code-snippets: Calc(Number(1rem) - 2);
 $typography-label: 1rem;
