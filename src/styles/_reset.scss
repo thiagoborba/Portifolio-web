@@ -10,10 +10,8 @@
 }
 
 @font-face {
-  font-family: $typography-family-base;
-  src: local($typography-family-base), local($typography-family-base),
-    url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap')
-      format('ttf') !important;
+  font-family: 'Fira Code retina';
+  src: url('../Fonts/FiraCode-Retina.ttf') format('ttf');
 }
 
 footer,
