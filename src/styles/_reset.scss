@@ -2,17 +2,11 @@
 
 * {
   box-sizing: border-box;
-  font-family: $typography-family-base;
+  font-family: 'Fira Code', cursive !important;
   background: $primary-deep-blue;
   color: $secoundary-steel-blue;
   margin: 0;
   padding: 0;
-}
-
-@font-face {
-  font-family: 'Fira Code';
-  src: url('../Assets/Fonts/FiraCode-Retina.ttf');
-  src: url('../Assets/Fonts/FiraCode-Regular.ttf');
 }
 
 footer,
