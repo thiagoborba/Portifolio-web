@@ -10,9 +10,13 @@
 }
 
 @font-face {
-  font-family: $typography-family-base !important;
-  src: local($typography-family-base),
-    url(@\Fonts\FiraCode-Retina.ttf) format('truetype');
+  font-family: $typography-family-base;
+  src: url('Fira Code.eot'); /* IE9 Compat Modes */
+  src: url('Fira Code.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('Fira Code.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('Fira Code.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('Fira Code.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('Fira Code.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 footer,
