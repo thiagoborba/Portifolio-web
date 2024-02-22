@@ -4,16 +4,22 @@
   display: flex;
   flex-direction: row;
   height: 100%;
-  border-bottom: $border;
 
-  li {
+  list-style-type: none;
+
+  div {
+    flex: 1;
+    border-bottom: $border;
+    border-right: $border;
     border-top: $border;
-    &:last-child {
-      margin-left: auto;
-      border-left: $border;
-      border-top: $border;
-      border-top-right-radius: $radius;
-    }
+  }
+}
+
+#_contact-me {
+  background-color: black;
+
+  button {
+    border-top-right-radius: $radius;
   }
 }
 

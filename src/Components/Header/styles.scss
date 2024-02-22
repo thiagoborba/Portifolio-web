@@ -2,6 +2,7 @@
 
 header {
   display: flex;
+  background-color: black;
 }
 
 .name-container {
@@ -9,7 +10,7 @@ header {
   align-items: center;
   width: $side-bar-width;
   align-self: center;
-  padding-left: $base;
+  padding-left: calc($base * 2);
   border: $border;
   border-top-left-radius: $radius;
   height: 100%;

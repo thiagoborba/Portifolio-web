@@ -1,3 +1,5 @@
+/// <reference types="vite-plugin-svgr/client" />
+
 import { SideNav, Header, Footer, Container } from '@/Components';
 import './styles.scss';
 
