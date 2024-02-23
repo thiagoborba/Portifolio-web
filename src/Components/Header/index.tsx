@@ -7,7 +7,8 @@ export function Header() {
       <div className="name-container">
         <span>thiago-borba</span>
       </div>
-      <HeaderTabs />
+      <HeaderTabs className="header-tabs" />
+      <div className="menu-icon">botão</div>
     </header>
   );
 }

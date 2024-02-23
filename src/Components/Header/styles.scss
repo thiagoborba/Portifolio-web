@@ -2,7 +2,22 @@
 
 header {
   display: flex;
-  background-color: black;
+  @media (max-width: $responsiveMd) {
+    justify-content: space-between;
+  }
+}
+
+.menu-icon {
+  display: none;
+  @media (max-width: $responsiveMd) {
+    display: flex;
+  }
+}
+
+.header-tabs {
+  @media (max-width: $responsiveMd) {
+    display: none !important;
+  }
 }
 
 .name-container {

@@ -2,11 +2,17 @@ import { Tab } from '@/Components';
 import './styles.scss';
 import { useState } from 'react';
 
-export function HeaderTabs() {
+interface HeaderTabsProps
+  extends React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLElement>,
+    HTMLElement
+  > {}
+
+export function HeaderTabs(props: HeaderTabsProps) {
   const [activeTab, setActiveTab] = useState('_hello');
 
   return (
-    <nav>
+    <nav {...props}>
       <ul className={'header-tabs'}>
         <li>
           <Tab
