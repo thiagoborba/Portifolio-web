@@ -4,4 +4,8 @@
   width: $side-bar-width;
   height: 100%;
   border-right: $border;
+
+  @media (max-width: $responsiveMd) {
+    display: none !important;
+  }
 }

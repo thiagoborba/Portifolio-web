@@ -1,5 +1,5 @@
 import './styles.scss';
-import Background from '@/Assets/Svg/Background Blurs.svg?react';
+// import Background from '@/Assets/Svg/Background Blurs.svg?react';
 
 export function Container() {
   return (
@@ -7,7 +7,7 @@ export function Container() {
       <div className="container-left">container left</div>
       <div className="container-right">
         container right
-        <Background className="background" />
+        {/* <Background className="background" /> */}
       </div>
     </div>
   );
