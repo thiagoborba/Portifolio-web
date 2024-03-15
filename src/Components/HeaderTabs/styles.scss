@@ -1,4 +1,4 @@
-@import '../../styles/_variables.scss';
+@import '@/styles/_variables.scss';
 
 .header-tabs {
   display: flex;
@@ -17,8 +17,6 @@
 }
 
 #_contact-me {
-  background-color: black;
-
   button {
     border-top-right-radius: $radius;
   }
