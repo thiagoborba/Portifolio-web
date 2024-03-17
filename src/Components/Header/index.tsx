@@ -1,11 +1,21 @@
 import './styles.scss';
 import { HeaderTabs } from '@/Components';
+import MenuIcon from '@/Assets/Svg/menu-line.svg?react';
+
+function Button() {
+  return (
+    <button onClick={() => alert('Te amo amor')} className="header-button">
+      <MenuIcon />
+    </button>
+  );
+}
 
 export function Header() {
   return (
     <header>
       <div className="name-container">
         <span>thiago-borba</span>
+        <Button />
       </div>
       <HeaderTabs className="header-tabs" />
     </header>

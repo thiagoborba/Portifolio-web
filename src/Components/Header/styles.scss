@@ -8,10 +8,21 @@ header {
   background-color: black;
 }
 
-.menu-icon {
+.header-button {
   display: none;
+  border: none;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+
+  &:active {
+    opacity: 0.5;
+  }
+
   @media (max-width: $responsiveMd) {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -26,12 +37,13 @@ header {
   align-items: center;
   width: $side-bar-width;
   align-self: center;
-  padding-left: calc($base * 2);
+  padding-left: $base;
   border: $border;
   border-top-left-radius: $radius;
   height: 100%;
   @media (max-width: $responsiveMd) {
     flex: 1;
+    justify-content: space-between;
     border-top-right-radius: $radius;
   }
 }
