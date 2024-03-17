@@ -1,26 +1,23 @@
 import styles from './styles.module.scss';
 import cn from 'clsx';
+import { Link, LinkProps } from 'react-router-dom';
 
-interface TabProps
-  extends React.DetailedHTMLProps<
-    React.ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  > {
+interface TabProps extends LinkProps {
   label: string;
   active?: boolean;
 }
 
-export function Tab({ label, active, onClick, ...props }: TabProps) {
+export function Tab({ label, active, to, ...props }: TabProps) {
   return (
-    <button
-      className={cn(styles['button'], {
+    <Link
+      className={cn(styles['link'], {
         [styles['-active']]: active,
       })}
-      onClick={onClick}
+      to={to}
       {...props}
     >
       {label}
-    </button>
+    </Link>
   );
 }
 

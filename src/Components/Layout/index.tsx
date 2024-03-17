@@ -1,15 +1,15 @@
 /// <reference types="vite-plugin-svgr/client" />
 
-import { SideNav, Header, Footer, Container } from '@/Components';
+import { Header, Footer } from '@/Components';
 import './styles.scss';
+import { Outlet } from 'react-router-dom';
 
 export function Layout() {
   return (
     <div className="outside-container">
       <Header />
       <main>
-        <SideNav />
-        <Container />
+        <Outlet />
       </main>
       <Footer />
     </div>

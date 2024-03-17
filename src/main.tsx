@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import '@/styles/_reset.scss';
-
-import { Layout } from '@/Components/Layout';
+import { Router } from './Router';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Layout />
+    <Router />
   </React.StrictMode>
 );

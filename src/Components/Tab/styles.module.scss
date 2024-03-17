@@ -1,11 +1,11 @@
 @import '@/styles/_variables.scss';
 
-.button {
+.link {
   display: flex;
   align-items: center;
   list-style: none;
   padding: 0 calc($base * 2);
-
+  user-select: none;
   font-size: $typography-label;
   border: none;
   border-top: $border;

@@ -17,9 +17,13 @@
 }
 
 #_contact-me {
-  button {
+  a {
     border-top-right-radius: $radius;
   }
+}
+
+a {
+  text-decoration: none; /* no underline */
 }
 
 nav {
