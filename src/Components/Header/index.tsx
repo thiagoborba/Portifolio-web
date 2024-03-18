@@ -4,7 +4,7 @@ import MenuIcon from '@/Assets/Svg/menu-line.svg?react';
 
 function Button() {
   return (
-    <button onClick={() => alert('Te amo amor')} className="header-button">
+    <button onClick={() => alert('olá Adão')} className="header-button">
       <MenuIcon />
     </button>
   );
